@@ -44,7 +44,7 @@ html {
             }
         }
         main {
-            .bg-jumbo {
+            .jumboBg {
                 width: 100%;
                 background-color: rgb(196 221 235);
                 .container-jumbo {
@@ -55,9 +55,7 @@ html {
                         flex-wrap: wrap;
                         .content {
                             padding-top: 45px;
-                            font-size: 60px;
-                            font-weight: 700;
-                            text-align: left;
+                            font-size: 32px;
                         }
                     }
                     .bottom-row {
@@ -92,6 +90,51 @@ html {
                                     position: absolute;
                                     left: -80px;
                                     top: 35px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .colossalBg {
+                width: 100%;
+                .container-plan {
+                    max-width: 750px;
+                    margin: 0 auto;
+                    padding-top: 70px;
+                    height: 1000px;
+                    background-color: rgb(214, 250, 255);
+                    h1 {
+                        padding: 40px 0;
+                    }
+                    .pb-30 {
+                        padding-bottom: 30px;
+                    }
+                    .row {
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-between;
+                        .col {
+                            width: 30%;
+                            height: 700px;
+                            border: 1px solid black;
+                            .plans {
+                                border-bottom: 1px solid black;
+                                text-align: center;
+                                padding: 5px;
+                            }
+                            .description-plans {
+                                padding: 20px;
+                                h2 {
+                                    padding: 10px 0;
+                                }
+                                h4 {
+                                    padding: 5px 0;
+                                }
+                                h5 {
+                                    padding: 5px 0 50px 0;
+                                    color: grey;
+                                    font-weight: 100;
                                 }
                             }
                         }
