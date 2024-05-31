@@ -1,0 +1,103 @@
+html {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+        font-variation-settings:"wdth" 100;
+        font-size: smaller;
+        header {
+            background-color: white;
+            height: 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .header-left {
+                padding: 10px;
+                .logo-section {
+                    display: flex;
+                    align-items: center;
+                    text-decoration: none;
+                    color: black;
+                    p {
+                        margin-left: 25px;
+                    }
+                }
+            }
+            .header-right {
+                padding: 10px;
+                text-align: end;
+                span {
+                    margin-right: 25px;
+                }
+                button {
+                    background-color: rgb(0, 110, 255);
+                    padding: 5px 10px;
+                    color: white;
+                    border: 0;
+                }
+            }
+        }
+        main {
+            .bg-jumbo {
+                width: 100%;
+                background-color: rgb(196 221 235);
+                .container-jumbo {
+                    max-width: 900px;
+                    margin: 0 auto;
+                    .top-row {
+                        display: flex;
+                        flex-wrap: wrap;
+                        .content {
+                            padding-top: 45px;
+                            font-size: 60px;
+                            font-weight: 700;
+                            text-align: left;
+                        }
+                    }
+                    .bottom-row {
+                        display: flex;
+                        flex-wrap: wrap;
+                        .col-40 {
+                            width: 40%;
+                            height: 340px;
+                            .content {
+                                p {
+                                    padding: 35px 55px 25px 0;
+                                }
+                                button {
+                                    background-color: rgb(0, 110, 255);
+                                    padding: 10px 10px;
+                                    color: white;
+                                    border: 0;
+                                }
+                                .fa-size {
+                                    padding-top: 20px;
+                                    font-size: 40px;
+                                }
+                            }
+                        }
+                        .col-60 {
+                            width: 60%;
+                            height: 340px;
+                            .content {
+                                position: relative;
+                                .size {
+                                    width: 650px;
+                                    position: absolute;
+                                    left: -80px;
+                                    top: 35px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
