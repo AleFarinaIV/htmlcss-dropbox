@@ -102,7 +102,6 @@ html {
                     max-width: 750px;
                     margin: 0 auto;
                     padding-top: 70px;
-                    height: 1000px;
                     h1 {
                         padding: 40px 0;
                     }
@@ -205,20 +204,38 @@ html {
                                     }
                                 }
                             }
-                            /* button {
-                                h4 {
-                                    padding: 5px 0;
-                                }
-                                p {
-                                    font-size: 11px;
-                                    margin-top: 30px;
-                                }
-                                width: 30%;
-                                span {
-                                    background-color: rgb(0, 110, 255);
-                                    padding: 10px 22px;
-                                }
-                            } */
+                        }
+                    }
+                }
+                .container-partner {
+                    width: 750px;
+                    margin: 0 auto;
+                    padding-top: 100px;
+                    .row {
+                        display: flex;
+                        flex-wrap: wrap;
+                        .image {
+                            width: 60%;
+                            height: 400px;
+                            .size {
+                                width: 100%;
+                            }
+                        }
+                        .text {
+                            width: 40%;
+                            height: 400px;
+                            padding: 35px 32px;
+                            h2 {
+                                margin-bottom: 20px;
+                            }
+                            p {
+                                margin-bottom: 20px;
+                            }
+                            button {
+                                border: 1px solid black;
+                                padding: 10px 15px;
+                                background-color: transparent;
+                            }
                         }
                     }
                 }
