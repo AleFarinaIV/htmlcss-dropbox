@@ -267,6 +267,126 @@ html {
                         }
                     }
                 }
+                .companies-section {
+                    width: 100vw;
+                    background-color: rgb(158 199 221);
+                    .companies {
+                        display: flex;
+                        flex-wrap: wrap;
+                        .section-2x2 {
+                            width: calc(100vw / 3);
+                            height: calc(100vw / 3);
+                            .content-row {
+                                display: flex;
+                                flex-wrap: wrap;
+                                .content-col {
+                                    width: calc(100% / 2);
+                                    height: calc(100vw / 6);
+                                    position: relative;
+                                    .size {
+                                        width: 50%;
+                                        position: absolute;
+                                        top: 50%;
+                                        left: 50%;
+                                        transform: translate(-50% , -50%);
+                                        filter: invert(98%) sepia(100%) saturate(0%) hue-rotate(344deg) brightness(101%) contrast(101%);
+                                    }
+                                }
+                                .designitBg {
+                                    background-color: rgb(132, 185, 91);
+                                }
+                                .asuBg {
+                                    background-color: rgb(55, 0, 0);
+                                }
+                                .ufBg {
+                                    background-color: rgb(43, 131, 186);
+                                }
+                                .toppsBg {
+                                    background-color: rgb(214, 32, 0);
+                                }
+                                .bicycleBg {
+                                    background-color: rgb(182, 0, 0);
+                                }
+                                .lonelyBg {
+                                    background-color: rgb(0, 0, 118);
+                                }
+                                .clearBg {
+                                    background-color: rgb(255, 230, 0);
+                                }
+                            }
+                        }
+                        .big-section {
+                            width: calc(100vw / 3);
+                            height: calc(100vw / 3);
+                            padding: 40px 30px;
+                            background-color: rgb(239, 239, 239);
+                            .size {
+                                width: 50%;
+                            }
+                            .short-line {
+                                width: 20%;
+                                margin: 30px 0;
+                                border: 1px solid rgb(89 83 83 / 12%);
+                            }
+                            p {
+                                margin-bottom: 40px;
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                    .freeTrial-section {
+                        width: 750px;
+                        margin: 0 auto;
+                        .row {
+                            display: flex;
+                            flex-wrap: wrap;
+                            justify-content: space-between;
+                            align-items: center;
+                            .text {
+                                width: 50%;
+                                padding: 60px 20px 60px 0;
+                                font-size: 30px;
+                                font-weight: 700;
+                                color: rgb(83, 0, 0);
+                            }
+                            button {
+                                background-color: rgb(255, 255, 255);
+                                padding: 10px 25px;
+                                color: rgb(0, 0, 0);
+                                border: 0;
+                            }
+                        }
+                    }
+                }
+                .questions-section {
+                    width: 100%;
+                    .questions {
+                        width: 750px;
+                        margin: 0 auto;
+                        h1 {
+                            padding: 85px 0 45px 0;
+                            border-bottom: 1px solid black;
+                        }
+                        .row {
+                            display: flex;
+                            flex-wrap: wrap;
+                            border-bottom: 1px solid black;
+                            .col-left {
+                                width: 75%;
+                                font-size: 13px;
+                                font-weight: 700;
+                                padding: 30px 0;
+
+                            }
+                            .col-right {
+                                width: 25%;
+                                text-align: end;
+                                padding: 30px 30px 30px 0;
+                            }
+                        }
+                    }
+
+                }
             }
         }
     }
